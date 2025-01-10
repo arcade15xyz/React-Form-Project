@@ -60,7 +60,7 @@ export default function Login() {
       </div>
 
       <p className="form-actions">
-        <button className="button button-flat">Reset</button>
+        <button className="button button-flat" type="reset">Reset</button>
         <button className="button" type="submit" >Login</button>
       </p>
     </form>

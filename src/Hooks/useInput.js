@@ -12,7 +12,8 @@ export function useInput(defalutValue , validationFn){
         setDidEdit(false);
       }
     
-      function handleInputChange(){
+      function handleInputChange(event){
+        setEnteredValue(event.target.value)
         setDidEdit(false);
       }
   return{
